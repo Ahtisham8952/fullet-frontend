@@ -23,9 +23,9 @@ const links = [
     isDisabled: false,
     Border: "2px solid rgba(52, 97, 255, 1)",
   },
-  { label: "Feed", href: "/feedscreen", isDisabled: false },
-  { label: "Profile", href: "/profile", isDisabled: false },
-  { label: "Settings", href: "/settings", isDisabled: false },
+  { label: "Feed", href: "/feedscreen", isDisabled: false ,   Border: "2px solid rgba(52, 97, 255, 1)",},
+  { label: "Profile", href: "/profile", isDisabled: false ,   Border: "2px solid rgba(52, 97, 255, 1)",},
+  { label: "Settings", href: "/settings", isDisabled: false,   Border: "2px solid rgba(52, 97, 255, 1)", },
 ];
 
 const Header = () => {
